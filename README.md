@@ -53,7 +53,7 @@ Parenthesis contains a valid input
     5 1.0 2.0 0.0 -1.0 -2.0 \
     5 -1.0 0.0 2.0 3.0 1.0 \
     5 1.5 1.0 4.0 3.0 -1.0 \
-) \
+)
 
 - Do the same for the test set.
 
