@@ -32,11 +32,13 @@ if |i-j|<=c, else it's equal to infinity
 
 **recursive:**
  - Compile: gcc -o rec distdtw.c main.c -DREC
- - Run: ./run [limit]
+ - Run: ./run [c]
 
 **dynamic:**
  - Compile: gcc -o dp distdtw.c main.c
- - Run: ./dp [limit]
+ - Run: ./dp [c]
+
+*Limit c is optional
 
 # Data Insertion
 
