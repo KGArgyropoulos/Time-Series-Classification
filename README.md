@@ -11,7 +11,7 @@ Let two time series A and B, with ai(1<=n<=N) and bj(1<=n<=N).\
 Ai is the time series including the i-first elements of A.\
 Bj is the time series including the j-first elements of B.\
 DTW distance of the two timeseries (dtw(Ai,Bj)), \
-given that ![alt text](https://github.com/KGArgyropoulos/Time-Series-Classification/images/blob/master/img3.png) \
-equals: ![alt text](https://github.com/KGArgyropoulos/Time-Series-Classification/images/blob/master/img1.png) \
-So DTW distance between A and B equals: ![alt text](https://github.com/KGArgyropoulos/Time-Series-Classification/images/blob/master/img2.png)
+given that ![alt text](https://github.com/KGArgyropoulos/Time-Series-Classification/blob/master/images/img3.png) \
+equals: ![alt text](https://github.com/KGArgyropoulos/Time-Series-Classification/blob/master/images/img1.png) \
+So DTW distance between A and B equals: ![alt text](https://github.com/KGArgyropoulos/Time-Series-Classification/blob/master/images/img2.png)
 
