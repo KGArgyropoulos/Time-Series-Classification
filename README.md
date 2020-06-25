@@ -30,16 +30,39 @@ if |i-j|<=c, else it's equal to infinity
 
 # Execution
 
-**recursive:**
+**recursive version:**
  - Compile: gcc -o rec distdtw.c main.c -DREC
  - Run: ./run [c]
 
-**dynamic:**
+**dynamic programming version:**
  - Compile: gcc -o dp distdtw.c main.c
  - Run: ./dp [c]
 
-*Limit c is optional
+*Limit c is optional (if not added it is condidered as equal to infinity)
 
 # Data Insertion
 
+Parenthesis contains a valid input
+- At first, insert the capacity and the size of the training data
 
+(3 5)
+
+- Then, insert line-by-line the data for every time-serie. The first index is the class of the time series.
+
+( 
+    5 1.0 2.0 0.0 -1.0 -2.0
+    5 -1.0 0.0 2.0 3.0 1.0
+    5 1.5 1.0 4.0 3.0 -1.0
+) 
+
+- Do the same for the test set.
+
+(6 5)
+( 
+    5 10.0 2.0 1.0 -3.0 -9.0
+    5 -1.1 0.2 2.3 3.4 1.5
+    5 1.9 1.0 4.1 3.0 -12.0
+    5 1.7 2.1 0.0 -1.0 -2.0
+    5 -1.4 0.3 2.2 3.0 1.0
+    5 1.5 1.0 5.0 7.0 -10.0
+) 
