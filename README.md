@@ -21,8 +21,8 @@ So DTW distance between A and B equals: \
 ![alt text](https://github.com/KGArgyropoulos/Time-Series-Classification/blob/master/images/img2.png)
 
 Usually, when we are interesting in finding the DTW distance of two time series these have the same size.\
-In that case, it's the distance of two distant elements should not be considered in the calculation of the two time series distance.\
-That's why we add limit to the distance of i's and j's.\
+In that case, the distance between two distant elements should not be considered in the calculation of the two time series distance.\
+That's why we add a limit (c) to the distance of i's and j's.\
 Hence, \
 ![alt text](https://github.com/KGArgyropoulos/Time-Series-Classification/blob/master/images/img3.png)
 
@@ -30,12 +30,14 @@ if |i-j|<=c, else it's equal to infinity
 
 # Execution
 
-recursive:
+**recursive:**
  - Compile: gcc -o rec distdtw.c main.c -DREC
  - Run: ./run [limit]
-dynamic:
+
+**dynamic:**
  - Compile: gcc -o dp distdtw.c main.c
  - Run: ./dp [limit]
 
 # Data Insertion
+
 
