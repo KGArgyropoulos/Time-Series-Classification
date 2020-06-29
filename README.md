@@ -66,3 +66,5 @@ Parenthesis contains a valid input
     5 -1.4 0.3 2.2 3.0 1.0 \
     5 1.5 1.0 5.0 7.0 -10.0 \
 )
+
+**NOTE:** This obviously has zero error rate, as all of the data belong to the same class (5), but you can change the numbers and see what happens, or find ready data and modify them to create a valid input.
